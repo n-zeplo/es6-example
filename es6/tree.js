@@ -22,8 +22,8 @@ class OrangeTree {
   checkHealth(){
     if(this.age >= 50){
       this.isAlive = false;
+      console.log('Your tree has died.');
     }
-    console.log('Your tree has died.')
   }
 
   pickOrange() {
