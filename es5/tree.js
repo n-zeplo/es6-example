@@ -1,9 +1,8 @@
-//Example of RequireJS or Browserify using CommonJS
+// Example of RequireJS or Browserify using CommonJS
 // var Orange = require('./orange.js');
 
 function OrangeTree(){
   "use strict"
-  this.age;
   this.age = 0;
   this.height = 0;
   this.isAlive = true;
