@@ -35,11 +35,4 @@ class OrangeTree {
   }
 }
 
-var ot = new OrangeTree();
-console.log(ot);
-ot.grow()
-ot.grow()
-ot.grow()
-ot.grow()
-console.log(ot);
-console.log(ot.pickOrange());
+export default OrangeTree;

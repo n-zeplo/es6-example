@@ -1,6 +1,9 @@
-'use strict'
+//Example of RequireJS or Browserify using CommonJS
+// var Orange = require('./orange.js');
 
-function Tree(){
+function OrangeTree(){
+  "use strict"
+  this.age;
   this.age = 0;
   this.height = 0;
   this.isAlive = true;
@@ -25,10 +28,10 @@ function Tree(){
   },
 
   this.pickOrange = function(){
-    return this.orange.pop();
+    return this.oranges.pop();
   },
 
   this.getRandomNum = function(){
-    Math.floor(Math.random() * (10) + 1);
+    return Math.floor(Math.random() * (10) + 1);
   }
-}()
+}
